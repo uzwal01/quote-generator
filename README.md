@@ -10,7 +10,7 @@ A simple quote generator built with HTML, CSS, and Vanilla JavaScript.
 - Mobile responsive design
 
 ### 🌐 Live Link
-[View App on Netlify](https://.......)
+[View App on Netlify]([https://.......](https://quote-generator-2057.netlify.app/))
 
 ---
 
