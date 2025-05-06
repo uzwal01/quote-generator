@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Quote Generator</title>
+    <link rel="icon" type="image/x-icon" href="/icon/favicon.ico">
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="light">
     <div class="app-container">
       <header>
         <h1>Quote Generator</h1>
         <label class="switch">
-          <input type="checkbox" id="modeToggle" />
-          <span class="" slider round></span>
-        </label>
+            <input type="checkbox" id="modeToggle">
+            <span class="slider"></span>
+          </label>
+          
       </header>
 
       <section class="controls">
@@ -23,11 +25,13 @@
           <option value="love">Love</option>
         </select>
         <div class="font-controls">
-          <button id="decreseFont">A-</button>
+          <button id="decreaseFont">A-</button>
           <button id="increaseFont">A+</button>
         </div>
       </section>
-
+      <div class="box-head">
+        <h2>Quote of the day</h2>
+      </div>
       <section class="quote-display">
         <p id="quoteText">Quote will appear here... </p>
       </section>
